@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="win">
+		<TableView id="itemsList" onClick="showItems">
+			<TableViewRow id="row" rowId="1" itemName="Test1">
+				<Label id="itemName">Test 1</Label>
+			</TableViewRow>
+			<TableViewRow id="row" rowId="2" itemName="Test2">
+				<Label id="itemName">Test 2</Label>
+			</TableViewRow>
+			<TableViewRow id="row" rowId="3" itemName="Test3">
+				<Label id="itemName">Test 3</Label>
+			</TableViewRow>
+			<TableViewRow id="row" rowId="4" itemName="Test4">
+				<Label id="itemName">Test 4</Label>
+			</TableViewRow>
+			<TableViewRow id="row" rowId="5" itemName="Test5">
+				<Label id="itemName">Test 5</Label>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>
